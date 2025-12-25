@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet" />
+  <title>Where in the world?</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <h1 class="header-item">Where in the world?</h1>
+        <button class="header-btn">
+          <span>Dark Mode</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="main-section">
+      <div class="container">
+        <form>
+          <div class="input-div">
+            <input placeholder="Search for a country…" class="main-input" type="text" />
+            <select id="regionSelect">
+              <option value="all">All</option>
+              <option value="Africa">Africa</option>
+              <option value="Americas">Americas</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+              <option value="Antarctic">Antarctic</option>
+            </select>
+          </div>
+        </form>
+
+        <div id="wrapper" class="wrapper">
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© 2025 Where in the world?</p>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
